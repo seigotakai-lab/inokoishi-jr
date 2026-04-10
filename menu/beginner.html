@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<style>
+  @media print {
+    body { margin: 0; }
+    @page { size: A4; margin: 10mm; }
+  }
+  body {
+    font-family: "Meiryo", "MS Gothic", sans-serif;
+    width: 190mm;
+    margin: 10mm auto;
+    font-size: 11pt;
+    color: #222;
+  }
+  .title-block { margin-bottom: 6px; }
+  .title-sub {
+    background: #1F4E79; color: white;
+    text-align: center; padding: 6px;
+    font-size: 12pt; font-weight: bold;
+  }
+  .title-main {
+    background: #2E75B6; color: white;
+    text-align: center; padding: 10px;
+    font-size: 18pt; font-weight: bold;
+  }
+  .title-note {
+    background: #DEEAF1; color: #1F4E79;
+    text-align: center; padding: 7px;
+    font-size: 12pt; font-weight: bold;
+    margin-bottom: 10px;
+  }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
+  th {
+    background: #2E75B6; color: white;
+    padding: 7px 8px; text-align: center;
+    font-size: 11pt; border: 1px solid #2E75B6;
+  }
+  td { padding: 7px 8px; border: 1px solid #AAAAAA; vertical-align: middle; font-size: 10.5pt; }
+  .col-name { width: 22%; text-align: center; font-weight: bold; }
+  .col-time { width: 12%; text-align: center; font-weight: bold; color: #1F4E79; }
+  .col-desc { width: 66%; }
+  tr:nth-child(odd)  td { background: #FFFFFF; }
+  tr:nth-child(even) td { background: #F2F2F2; }
+  tr.last td { background: #DEEAF1; color: #555; }
+  .end-box {
+    background: #ED7D31; color: white;
+    text-align: center; padding: 9px;
+    font-size: 13pt; font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+  .guide-block { margin-bottom: 6px; }
+  .guide-title {
+    background: #375623; color: white;
+    padding: 7px 10px; font-weight: bold; font-size: 11.5pt;
+  }
+  .guide-body { background: #E2EFDA; padding: 8px 12px; }
+  .guide-section { font-weight: bold; color: #375623; margin: 6px 0 3px; font-size: 10.5pt; }
+  .guide-item { margin: 2px 0; font-size: 10.5pt; padding-left: 4px; }
+  .footnote { color: #888; font-size: 9pt; margin-top: 8px; }
+
+  /* クラス分類 */
+  .class-block { margin-bottom: 10px; }
+  .class-title {
+    background: #7030A0; color: white;
+    padding: 7px 10px; font-weight: bold; font-size: 11.5pt;
+  }
+  .class-table th { background: #7030A0; border-color: #7030A0; }
+  .class-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 10.5pt;
+  }
+  .badge-s { background: #FFF2CC; color: #7F6000; }
+  .badge-a { background: #DEEAF1; color: #1F4E79; }
+  .badge-b { background: #E2EFDA; color: #375623; }
+  .badge-c { background: #FCE4D6; color: #843C0C; }
+
+  /* 昇格条件 */
+  .promo-block { margin-bottom: 10px; }
+  .promo-title {
+    background: #C55A11; color: white;
+    padding: 7px 10px; font-weight: bold; font-size: 11.5pt;
+  }
+  .promo-body { background: #FCE4D6; padding: 8px 12px; }
+  .promo-section { font-weight: bold; color: #C55A11; margin: 6px 0 3px; font-size: 10.5pt; }
+  .promo-item { margin: 2px 0; font-size: 10.5pt; padding-left: 4px; }
+  .promo-note { color: #888; font-size: 9pt; margin-top: 4px; }
+</style>
+</head>
+<body>
+
+<div class="title-block">
+  <div class="title-sub">🏸 猪子石ジュニアバドミントンクラブ</div>
+  <div class="title-main">初心者・初級者 練習メニュー（19:00〜20:15）</div>
+  <div class="title-note">📦 準備するもの：旗（長い棒）</div>
+</div>
+
+<table>
+  <thead>
+    <tr><th class="col-name">種目</th><th class="col-time">時間</th><th class="col-desc">内容・ポイント</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="col-name">① 素振り</td><td class="col-time">10分</td><td class="col-desc">オーバー・サイド・アンダー。旗を使い、面の当たりを音で確認</td></tr>
+    <tr><td class="col-name">② 旗</td><td class="col-time">10分</td><td class="col-desc">オーバー中心。大きく振って旗に面が当たるフォームを意識</td></tr>
+    <tr><td class="col-name">③ シャトル投げ</td><td class="col-time">5分</td><td class="col-desc">投げるだけでOK。動作の基本を体で覚える</td></tr>
+    <tr><td class="col-name">④ シャトル投げ２</td><td class="col-time">5分</td><td class="col-desc">前後に動きながらシャトルを取って投げる</td></tr>
+    <tr><td class="col-name">⑤ ノック</td><td class="col-time">20分</td><td class="col-desc">オーバー（フォア）、アンダー（フォア・バック）</td></tr>
+    <tr><td class="col-name">⑥ サーブ</td><td class="col-time">20〜30分</td><td class="col-desc">基本サーブの反復練習</td></tr>
+    <tr class="last"><td class="col-name">自主練（任意）</td><td class="col-time">〜</td><td class="col-desc">打ちたい子は続けてOK</td></tr>
+  </tbody>
+</table>
+
+<div class="end-box">🔚 20:15　初心者・初級者は一旦終了 ／ 以降は希望者のみ自由打ちOK</div>
+
+<!-- クラス分類 -->
+<div class="class-block">
+  <div class="class-title">🎽 クラス分類</div>
+  <table class="class-table" style="margin-bottom:0">
+    <tbody>
+      <tr><td style="text-align:center"><span class="class-badge badge-c">初心者</span></td><td>入会直後。サブネットで基本動作を練習中</td></tr>
+      <tr><td style="text-align:center"><span class="class-badge badge-a">初級者</span></td><td>コート内での練習に参加できるレベル</td></tr>
+      <tr><td style="text-align:center"><span class="class-badge badge-b">中級者</span></td><td>試合・ノック等フル参加できるレベル</td></tr>
+      <tr><td style="text-align:center"><span class="class-badge badge-s">上級者</span></td><td>試合で安定して戦えるレベル。後輩のお手本となって引っ張っていける存在</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 昇格条件 -->
+<div class="promo-block">
+  <div class="promo-title">⬆️ 初心者 → 初級者への昇格条件（暫定）</div>
+  <div class="promo-body">
+    <div class="promo-section">▼ 基本条件（以下をすべて満たすこと）</div>
+    <div class="promo-item">・オーバーハンドでダブルスサービスラインからコート中央付近まで届く球が打てる</div>
+    <div class="promo-item">・アンダーハンドでサービスラインあたりからコート中央付近まで届く球が打てる　※1</div>
+    <div class="promo-item">・コーチのOKサインが出る</div>
+    <div class="promo-section">▼ 注意事項</div>
+    <div class="promo-item">・低学年・小柄な子は体格差を考慮して柔軟に判断する</div>
+    <div class="promo-note">※1：バックハンドは指導・練習を進めるが、昇格時の必須条件とするかは今後コーチ間で要相談。</div>
+  </div>
+</div>
+
+<div class="guide-block">
+  <div class="guide-title">👨‍👩‍👧 当番・保護者の方へ</div>
+  <div class="guide-body">
+    <div class="guide-section">▼ グリップの持ち方（①②の前に確認）</div>
+    <div class="guide-item">・ラケットを立てて、握手するように持つ</div>
+    <div class="guide-item">・手のひらでなく、指でやさしく包む感じ</div>
+    <div class="guide-item">・強く握りすぎないよう声かけしてください</div>
+    <div class="guide-section">▼ 旗の使い方</div>
+    <div class="guide-item">・大人が旗（長い棒）を持っている</div>
+    <div class="guide-item">・子どもがラケットを振って旗に面を当てる</div>
+    <div class="guide-item">・旗に面がきちんと当たると「パン！」と音が鳴る</div>
+    <div class="guide-item">・音が鳴ったら「いい音！」と声をかけてあげてください</div>
+  </div>
+</div>
+
+<div class="footnote">※ 初心者は基本的に別メニュー（サブネット）で実施。初級者はコーチの手が回る日に限り中級以上の練習に合流できます。</div>
+
+</body>
+</html>
